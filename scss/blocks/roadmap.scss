@@ -1,0 +1,44 @@
+.roadmap {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+
+&--right {
+  flex-direction: row-reverse;
+}
+
+  }
+
+  &__desc {
+    max-width: 480px;
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: $black;
+    margin-bottom: 30px;
+  }
+
+  &__text-block {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: $gray;
+  }
+
+  &__picture {
+    max-width: 600px;
+    height: auto;
+    border-radius: 30px;
+    // box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+  }
+
+}
