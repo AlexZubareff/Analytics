@@ -138,7 +138,12 @@
     }
 
     .rates-item__order-btn {
-      @include btn($pink, $pink,68px, #fff, 16px, 15px, 80px)
+      @include btn($pink, $pink, 68px, #fff, 16px, 15px, 80px);
+      transition: all 0.2s;
+      &:hover {
+        @include btn($pink, transparent, 68px, $pink, 16px, 15px, 80px);
+      }
     }
+
   }
 }
