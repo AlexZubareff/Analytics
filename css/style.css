@@ -535,6 +535,23 @@ body {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 425px) {
+  .roadmap__item {
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 0 15px;
+  }
+  .roadmap__desc {
+    min-width: 50%;
+  }
+  .roadmap__title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .roadmap__text-block {
+    font-size: 16px;
+  }
+}
 .pricing-plans {
   position: relative;
   padding-top: 280px;
